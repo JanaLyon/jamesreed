@@ -98,8 +98,8 @@ function jr_create_inthenews($post) {
 
     echo '<label for="inthenews-is_selected">'. 'Is this a "selected" article?' .'</label><br>';
     echo '<p class="howto">'. '' .'</p>';
-    echo "<input type='radio' id='inthenews-is_selected' name='is_post_selected' value='yes' " . checked( $is_selected_value, "yes" ) ."> Selected<br>";
-    echo "<input type='radio' name='is_post_selected' value='no'" . checked( $is_selected_value, "no" ) ."> Not Selected<br>";
+    echo "<input type='radio' id='inthenews-is_selected' name='is_post_selected' value='yes' " . checked( $is_selected_value, "yes", false ) ."> Selected<br>";
+    echo "<input type='radio' name='is_post_selected' value='no'" . checked( $is_selected_value, "no", false ) ."> Not Selected<br>";
 
 }
 function save_inthenews_metaboxes($post_id){
@@ -131,7 +131,7 @@ function save_inthenews_metaboxes($post_id){
     $publication_name = sanitize_text_field( $_POST['publication_name'] );
     $date_published = sanitize_text_field( $_POST['date_published'] );
     $link_to_article = sanitize_text_field( esc_url_raw($_POST['link_to_article']) );
-    $is_post_selected = sanitize_text_field( $_POST['is_post_selected'] );
+    $is_post_selected = sanitize_text_field( $_POST['is_post_selected']);
 
     //save the entries into the database
     update_post_meta( $post_id, '_jr_create_inthenews_publication_name', $publication_name );
