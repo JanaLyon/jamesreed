@@ -1,0 +1,57 @@
+.widget {
+  margin: 0 0 1.5em;
+
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
+}
+
+//recent posts
+.recent-posts-block {
+  margin-top: 50px;
+  h3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $light-border;
+  }
+  .date-container {
+    padding: 15px 0;
+    p {
+      font-size: $body4-font-size;
+      line-height: $body4-line-height;
+      color: $excerpt-text;
+      margin: 0;
+    }
+  }
+  .title-container {
+    position: relative;
+    padding-bottom: 15px;
+    a.title {
+      padding: 0;
+      h4 {
+      }
+    }
+  }
+
+  .button-container {
+    padding-bottom: 30px;
+    border-bottom: 1px solid $light-border;
+    a.btn-link {
+      margin-bottom: 0;
+      padding: 0;
+    }
+  }
+}
+.view-all{
+  padding-top: 10px;
+  a{
+    text-align: right;
+  }
+}
+
+//twitter
+.widget_twitter_timeline{
+  border-radius: 4px;
+  border: 1px solid $light-border;
+  padding: 15px;
+}

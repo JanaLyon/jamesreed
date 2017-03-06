@@ -1,0 +1,22 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 3px;
+	background: $cta-up;
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+
+	&:hover {
+		background: $cta-over;
+	}
+
+	&:active,
+	&:focus {
+		background: $cta-over;
+	}
+}

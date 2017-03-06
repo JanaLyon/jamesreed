@@ -1,0 +1,85 @@
+.dark-background {
+  background-color: $video-background;
+}
+
+.space-bottom-25 {
+  margin-bottom: 25px;
+  @media screen and (max-width: $large-min){
+    margin-bottom: 0;
+  }
+}
+
+.space-top-20 {
+  margin-top: 20px;
+  @media screen and (max-width: $large-min){
+    margin-top: 0;
+  }
+}
+
+.space-top-40 {
+  margin-top: 40px;
+  @media screen and (max-width: $large-min){
+    margin-top: 20px;
+  }
+}
+
+.white {
+  color: white;
+}
+
+//video section
+.video-tabs {
+  margin-bottom: 50px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  max-height: 442px;
+  overflow: hidden;
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 442px;
+  }
+}
+
+.play-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+}
+
+ul.nav.nav-pills.nav-stacked {
+  height: 422px;
+  @media screen and (max-width: $large-min) {
+    padding-left: 15px;
+  }
+  li {
+    height: 19.5%;
+    margin-bottom: 3px;
+  }
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .nav > li > a:hover, .nav > li > a:focus {
+  background-color: $video-down;
+}
+
+.nav-pills > li > a {
+  border-radius: 0;
+  background-color: $video-up;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tab-content {
+  height: auto;
+}

@@ -1,0 +1,33 @@
+html{
+	font-size: 18px;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: $main-text;
+	font-family: $main-font;
+	@include font-size(1);
+	line-height: $body1-line-height;
+}
+@mixin body1{
+	font-size: $body1-font-size;
+	line-height: $body1-line-height;
+}
+@mixin body2{
+	font-size: $body2-font-size;
+	line-height: $body2-line-height;
+}
+@mixin body3{
+	font-size: $body3-font-size;
+	line-height: $body3-line-height;
+}
+@mixin body4{
+	font-size: $body4-font-size;
+	line-height: $body4-line-height;
+}
+
+@import "_headings";
+
+@import "_copy";

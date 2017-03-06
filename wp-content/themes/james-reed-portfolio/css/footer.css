@@ -1,0 +1,413 @@
+#site-footer {
+  clear: both;
+}
+#site-footer .row {
+  margin: 0;
+}
+#site-footer .footer-content:after,
+#site-footer .footer-nav:after,
+#site-footer .social ul:after {
+  clear: both;
+}
+#site-footer .footer-content:after,
+#site-footer .footer-content:before,
+#site-footer .social ul:after,
+#site-footer .social ul:before {
+  display: table;
+  content: '';
+}
+a.tag:after {
+  width: 16px;
+  height: 30px;
+  background-position: 0 -3150px;
+}
+#site-footer .footer-nav {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+}
+
+#site-footer,
+#site-footer .message-panel-action-negative,
+#site-footer a {
+  color: #d6d6d6;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+#site-footer {
+  padding: 0 15px;
+  background: #222e39;
+}
+@media screen and (min-width: 1025px) {
+  #site-footer .message-panel-action-negative:hover,
+  #site-footer a:hover {
+    color: #fff;
+  }
+}
+#site-footer .footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#site-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#site-footer .footer-lower {
+  margin: 0 -15px;
+  background: #364859;
+}
+#site-footer .footer-lower .footer-content {
+  position: relative;
+  padding: 15px 15px 30px;
+}
+#site-footer .footer-lower .lovemondays-logo {
+  margin-bottom: 15px;
+  text-align: center;
+}
+#site-footer .right-side {
+  position: relative;
+}
+#site-footer .book {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  #site-footer .footer-lower .lovemondays-logo {
+    display: none;
+  }
+  #site-footer .right-side {
+    float: right;
+    width: 50%;
+    padding-top: 30px;
+  }
+  #site-footer .book {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 38px 0 0;
+  }
+  #site-footer .book > .message-panel-action-negative,
+  #site-footer .book > a {
+    float: left;
+    margin-right: 20px;
+  }
+  #site-footer .book p {
+    float: left;
+    margin: 40px 0 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #fff;
+  }
+  #site-footer .book p .bigger {
+    font-size: 16px;
+  }
+  #site-footer .book p .message-panel-action-negative,
+  #site-footer .book p a {
+    display: block;
+  }
+}
+#site-footer .social {
+  padding: 15px 0;
+  text-align: center;
+}
+#site-footer .social ul {
+  display: inline-block;
+  padding: 0;
+  margin: .5rem 0 0;
+  list-style: none;
+}
+#site-footer .social ul li {
+  float: left;
+  margin-right: 15px;
+}
+#site-footer .social ul li:last-child {
+  margin: 0;
+}
+#site-footer .social ul li .message-panel-action-negative,
+#site-footer .social ul li a {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -999em;
+  vertical-align: middle;
+  content: '';
+}
+#site-footer .social ul li .message-panel-action-negative.right-aligned,
+#site-footer .social ul li a.right-aligned {
+  text-indent: 999em;
+}
+#site-footer .social ul li .message-panel-action-negative.twitter,
+#site-footer .social ul li a.twitter {
+  width: 49px;
+  height: 50px;
+  background-image: url(../img/icon-sprite-1445266049052.png);
+  background-repeat: no-repeat;
+  background-position: 0 -3225px;
+  -webkit-background-size: 125px 3385px;
+          background-size: 125px 3385px;
+}
+.svg #site-footer .social ul li .message-panel-action-negative.twitter,
+.svg #site-footer .social ul li a.twitter {
+  background-image: url(../img/icon-sprite-1445266049052.svg);
+}
+#site-footer .social ul li .message-panel-action-negative.facebook,
+#site-footer .social ul li a.facebook {
+  width: 49px;
+  height: 50px;
+  background-image: url(../img/icon-sprite-1445266049052.png);
+  background-repeat: no-repeat;
+  background-position: 0 -1250px;
+  -webkit-background-size: 125px 3385px;
+          background-size: 125px 3385px;
+}
+.svg #site-footer .social ul li .message-panel-action-negative.facebook,
+.svg #site-footer .social ul li a.facebook {
+  background-image: url(../img/icon-sprite-1445266049052.svg);
+}
+#site-footer .social ul li .message-panel-action-negative.googleplus,
+#site-footer .social ul li a.googleplus {
+  width: 49px;
+  height: 50px;
+  background-image: url(../img/icon-sprite-1445266049052.png);
+  background-repeat: no-repeat;
+  background-position: 0 -1730px;
+  -webkit-background-size: 125px 3385px;
+          background-size: 125px 3385px;
+}
+.svg #site-footer .social ul li .message-panel-action-negative.googleplus,
+.svg #site-footer .social ul li a.googleplus {
+  background-image: url(../img/icon-sprite-1445266049052.svg);
+}
+@media screen and (min-width: 1025px) {
+  #site-footer .social {
+    text-align: right;
+  }
+  #site-footer .social ul {
+    display: inline-block;
+    margin: 0 0 0 1rem;
+    vertical-align: middle;
+  }
+  #site-footer .social ul li {
+    text-align: left;
+  }
+  #site-footer .social ul li .message-panel-action-negative:hover.twitter,
+  #site-footer .social ul li a:hover.twitter {
+    width: 49px;
+    height: 50px;
+    background-image: url(../img/icon-sprite-1445266049052.png);
+    background-repeat: no-repeat;
+    background-position: 0 -3280px;
+    -webkit-background-size: 125px 3385px;
+            background-size: 125px 3385px;
+  }
+  .svg #site-footer .social ul li .message-panel-action-negative:hover.twitter,
+  .svg #site-footer .social ul li a:hover.twitter {
+    background-image: url(../img/icon-sprite-1445266049052.svg);
+  }
+  #site-footer .social ul li .message-panel-action-negative:hover.facebook,
+  #site-footer .social ul li a:hover.facebook {
+    width: 49px;
+    height: 50px;
+    background-image: url(../img/icon-sprite-1445266049052.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1305px;
+    -webkit-background-size: 125px 3385px;
+            background-size: 125px 3385px;
+  }
+  .svg #site-footer .social ul li .message-panel-action-negative:hover.facebook,
+  .svg #site-footer .social ul li a:hover.facebook {
+    background-image: url(../img/icon-sprite-1445266049052.svg);
+  }
+  #site-footer .social ul li .message-panel-action-negative:hover.googleplus,
+  #site-footer .social ul li a:hover.googleplus {
+    width: 49px;
+    height: 50px;
+    background-image: url(../img/icon-sprite-1445266049052.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1785px;
+    -webkit-background-size: 125px 3385px;
+            background-size: 125px 3385px;
+  }
+  .svg #site-footer .social ul li .message-panel-action-negative:hover.googleplus,
+  .svg #site-footer .social ul li a:hover.googleplus {
+    background-image: url(../img/icon-sprite-1445266049052.svg);
+  }
+}
+#site-footer .footer-nav {
+  box-sizing: border-box;
+  margin: 0 -15px;
+  text-align: center;
+}
+#site-footer .footer-nav:after,
+#site-footer .footer-nav:before {
+  display: table;
+  content: '';
+}
+#site-footer .footer-nav > li {
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+}
+#site-footer .footer-nav > li:last-child {
+  border: 0;
+}
+#site-footer .footer-nav .title {
+  position: relative;
+  padding: 15px;
+  margin: 0 -15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: -webkit-background .5s ease-in-out;
+     -moz-transition:    -moz-background .5s ease-in-out;
+      -ms-transition:     -ms-background .5s ease-in-out;
+       -o-transition:      -o-background .5s ease-in-out;
+          transition:         background .5s ease-in-out;
+}
+#site-footer .footer-nav nav {
+  padding: 7.5px 15px;
+  margin: 0 -15px;
+  font-size: 14px;
+  line-height: 3;
+}
+@media screen and (max-width: 1024px) {
+  #site-footer .footer-nav .title.active {
+    font-weight: 700;
+    background: #364859;
+    -webkit-transition: -webkit-background .5s ease-in-out;
+       -moz-transition:    -moz-background .5s ease-in-out;
+        -ms-transition:     -ms-background .5s ease-in-out;
+         -o-transition:      -o-background .5s ease-in-out;
+            transition:         background .5s ease-in-out;
+  }
+  .js #site-footer .footer-nav nav {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    -webkit-transition: max-height .5s;
+       -moz-transition: max-height .5s;
+        -ms-transition: max-height .5s;
+         -o-transition: max-height .5s;
+            transition: max-height .5s;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  .js #site-footer .footer-nav nav.open {
+    max-height: 550px;
+  }
+  .js #site-footer .footer-nav nav ul {
+    padding: 7.5px 15px;
+    background: #364859;
+  }
+}
+#site-footer .footer-nav .lovemondays-logo {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  #site-footer .footer-nav > li {
+    float: left;
+    width: 25%;
+    border: 0;
+  }
+  #site-footer .footer-nav.condensed-nav > li {
+    float: left;
+    width: 33.33333333%;
+  }
+  #site-footer .footer-nav {
+    margin-bottom: 40px;
+    text-align: left;
+	padding: 30px 15px 0;
+  }
+  #site-footer .footer-nav .title {
+    padding: 5px 0 15px;
+    margin: 0;
+    cursor: default;
+    background-color: transparent;
+  }
+  #site-footer .footer-nav nav {
+    display: block!important;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 2.3;
+    border: 0;
+  }
+  #site-footer .footer-nav .lovemondays-logo {
+    display: block;
+    margin-top: 115px;
+  }
+}
+#site-footer .legal {
+  margin: 1rem 0 0;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  text-transform: uppercase;
+}
+#site-footer .legal ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 1;
+}
+#site-footer .legal ul li:last-child {
+  padding: 0;
+}
+#site-footer .legal ul li.block {
+  display: block;
+  margin: 30px 0;
+}
+#site-footer .legal ul li .site-switch {
+  font-size: 14px;
+}
+#site-footer .legal ul li .message-panel-action-negative:hover,
+#site-footer .legal ul li a:hover {
+  color: #fff;
+}
+#site-footer .legal p {
+  margin: 0;
+  font-size: 12px;
+}
+@media screen and (min-width: 1025px) {
+  #site-footer .legal ul li.block {
+    display: inline-block;
+  }
+  #site-footer .legal ul li .site-switch {
+    font-size: 12px;
+  }
+  #site-footer .legal {
+    float: right;
+    margin-top: 0;
+    text-align: right;
+  }
+}
+@media screen and (max-width:340px) {
+	#site-footer .footer-lower{
+		margin: 0;
+	}
+	#site-footer .footer-nav{
+		margin: 0;
+	}
+	#site-footer {
+		padding:0;
+	}
+}
+.lovemondays-logo img{
+  width: 189px;
+}

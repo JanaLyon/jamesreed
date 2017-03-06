@@ -1,0 +1,76 @@
+a {
+	color: $headings-text;
+
+	&:visited {
+		color: $site-main-nav-bg;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $site-main-nav-bg;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+a.btn-top-action{
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: $body2-font-size;
+	color:#fff;
+	text-align: center;
+	padding: 10px 25px;
+	line-height: $body2-line-height;
+	border-radius: 4px;
+	background-color: $cta-up;
+	border: none;
+	.fa{
+		padding-left: 10px;
+	}
+	&:hover,
+	&:active {
+		background-color: $cta-over;
+		color:#fff;
+		text-decoration: none;
+	}
+}
+a.btn-action {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: $body2-font-size;
+	color:$cta-up;
+	text-align: center;
+	padding: 6px 12px;
+	line-height: $body2-line-height;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px solid $cta-up;
+	&:hover,
+	&:active {
+		border: 1px solid $cta-up;
+		background-color: $cta-up;
+		color:#fff;
+		text-decoration: none;
+	}
+}
+a.btn-link{
+	display: block;
+	margin-bottom: 15px;
+	font-weight:bold;
+	font-size: $body3-font-size;
+	color: $cta-up;
+	text-align: left;
+	line-height: $body3-line-height;
+	border: none;
+	&:hover,
+	&:active {
+		color: $cta-over;
+		text-decoration: none;
+	}
+}

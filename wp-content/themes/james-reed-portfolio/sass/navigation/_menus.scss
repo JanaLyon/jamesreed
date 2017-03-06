@@ -1,0 +1,323 @@
+.site-group-nav {
+  background-color: $site-group-nav-bg;
+  color: white;
+  nav {
+    & ul {
+      padding: 0;
+      margin: 0;
+    }
+    .nav > li {
+      display: inline-block;
+      background-color: transparent;
+      a {
+        font-size: $menu-font-size;
+        color: white;
+        padding:10px 7px;
+        @media screen and (max-width: $large-min) {
+          font-size: $body3-font-size;
+        }
+        &.logo {
+          display:block;
+          width: 110px;
+          @media screen and (max-width: $large-min) {
+           display: none;
+          }
+          padding-left: 0;
+          &:hover, &:focus {
+            text-decoration: none;
+            background-color: transparent;
+            border-bottom: none;
+          }
+        }
+        &.logo-sm{
+          display: none;
+          @media screen and (max-width: $large-min) {
+            display: block;
+            width: 35px;
+          }
+        }
+        &.global-nav-txt-active {
+          border-bottom: 4px solid white;
+          &:hover, &:focus {
+            text-decoration: none;
+            background-color: transparent;
+            border-bottom: 4px solid white;
+          }
+        }
+
+        &:hover, &:focus {
+          text-decoration: none;
+          background-color: transparent;
+          border-bottom: 4px solid white;
+        }
+      }
+    }
+  }
+}
+
+.glyph-padding {
+  //:check
+  //padding: 0 15px;
+  padding: 0 15px 0 0;
+  color: white;
+  @media screen and (max-width: $large) {
+    padding: 12px 7px;
+  }
+}
+
+.site-main-nav {
+  background-color: $site-main-nav-bg;
+  color: white;
+  height: 45px;
+  box-sizing: content-box;
+  //border-bottom: solid 1px #000;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  @media screen and (max-width: $large) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $main-background;
+  }
+
+}
+
+.menu-main-menu-container {
+  display: block;
+  @media screen and (max-width: $large-min) {
+    max-height: 0px;
+    overflow: hidden;
+    //display: none;
+  }
+}
+
+ul#primary-menu {
+  padding: 0;
+  margin: 0;
+
+  //:check
+  li:first-of-type {
+    padding: 10px 15px 8px 3px;
+  }
+  // ---
+  li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px 8px;
+    @media screen and (max-width: $large-min) {
+      display: block;
+      text-align: left;
+      font-size: 1.2rem;
+      color: $site-main-nav-bg;
+      border-bottom: 1px $light-border solid;
+      &:first-child {
+        display: none;
+      }
+    }
+    &:hover, &:focus, &.current-menu-item {
+      border-bottom: 4px solid white;
+      @media screen and (max-width: $large-min) {
+        background-color: transparent;
+        border-bottom: 1px $light-border solid;
+      }
+    }
+    &:first-child {
+      &:hover, &:focus {
+        //background-color: transparent;
+        //border-bottom: none;
+      }
+    }
+    a {
+      font-size: $menu-font-size;
+      color: white;
+      background-color: transparent;
+      @media screen and (max-width: $large-min) {
+        color: $site-main-nav-bg;
+      }
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+  .social-icon {
+    padding: 10px 7px;
+    .fa {
+      font-size: 1.3rem;
+    }
+    @media screen and (max-width: $large-min) {
+      //display: none;
+    }
+  }
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: inline-block;
+}
+
+@media screen and (min-width: $large) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: block;
+  }
+}
+
+//burger menu
+
+//:check
+//.icon {
+//  height: 2px;
+//  width: 25px;
+//  top: 20px;
+//  right: 35px;
+//  background-color: white;
+//  position: absolute;
+//  transition-duration: 0.5s;
+//
+//  &:before {
+//    right: 0;
+//    position: absolute;
+//    top: -8px;
+//    height: inherit;
+//    width: inherit;
+//    background-color: inherit;
+//    content: "";
+//    transition-duration: 0.5s;
+//
+//  }
+//
+//  &:after {
+//    right: 0;
+//    position: absolute;
+//    top: 8px;
+//    height: inherit;
+//    width: inherit;
+//    background-color: inherit;
+//    content: "";
+//    transition-duration: 0.5s;
+//
+//  }
+//}
+.burger {
+  float: right;
+}
+.icon {
+  height: 2px;
+  width: 25px;
+  top: 20px;
+  //right: 35px;
+  background-color: white;
+  position: relative;
+  transition-duration: 0.5s;
+
+  &:before {
+    right: 0;
+    position: absolute;
+    top: -8px;
+    height: inherit;
+    width: inherit;
+    background-color: inherit;
+    content: "";
+    transition-duration: 0.5s;
+
+  }
+
+  &:after {
+    right: 0;
+    position: absolute;
+    top: 8px;
+    height: inherit;
+    width: inherit;
+    background-color: inherit;
+    content: "";
+    transition-duration: 0.5s;
+
+  }
+}
+.home-btn{
+  @media screen and (max-width: $large) {
+    width: 15%;
+  }
+}
+.home-text {
+  @media screen and (max-width: $large) {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+  }
+}
+.menu-main-menu-container.show-menu {
+  @media screen and (max-width: $large-min) {
+    max-height: 500px;
+    //display: block;
+  }
+}
+
+.burger.open .icon {
+  transition-duration: 0.1s;
+  transition-delay: 0.5s;
+  background: transparent;
+}
+
+.burger.open .icon:before {
+  transition: top 0.5s, transform 0.5s 0.5s;
+  top: 0;
+  background: white;
+  transform: rotateZ(-45deg);
+}
+
+.burger.open .icon:after {
+  transition: top 0.4s, transform 0.5s 0.5s;
+  top: 0;
+  background: white;
+  transform: rotateZ(45deg);
+}
+
+.burger-menu {
+  display: none;
+  @media screen and (max-width: $large-min) {
+    background-color: $site-main-nav-bg;
+    height: 44px;
+    display:block;
+  }
+}
+
+.menu-main-menu-container.show-menu {
+  transition-timing-function: ease-in;
+}
+.menu-main-menu-container {
+  transition-timing-function: ease-out;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s ;
+  -ms-transition: max-height 1s ;
+  -o-transition: max-height 1s ;
+  transition: max-height 1s ;
+  //animation: anim 1.3s ease-in-out;
+}
+
+//other
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main & {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}

@@ -1,0 +1,132 @@
+.news-module {
+  margin: 20px 0;
+  @media screen and (max-width: $medium-min){
+    margin: 10px 0 20px;
+  }
+  .tab-top {
+    background-color: $main-background;
+    width: 80px;
+    height: 15px;
+    border-top-right-radius: 8px;
+    margin:0;
+    padding:0;
+  }
+  .news-container {
+    margin:0;
+    padding: 20px 20px;
+    background-color: $main-background;
+    width: 100%;
+    height: 230px;
+    border-bottom: 3px solid $light-border;
+    position: relative;
+    @media screen and (max-width: $medium-min){
+      height: 185px;
+    }
+    @media screen and (max-width: $small-min){
+      height: 230px;
+    }
+    @media screen and (max-width: $smallest){
+      height: 240px;
+    }
+    .publisher-container {
+      position: relative;
+      a.publisher {
+        h3{
+          margin-top: 0;
+        }
+      }
+
+    }
+    .date-container {
+      position: relative;
+      p {
+        @include body3();
+        margin: 5px 0 12px 0;
+      }
+    }
+    .title-container {
+      position: relative;
+      a.title {
+        padding:0;
+        background-color: transparent;
+        &:hover{
+          text-decoration: none;
+        }
+        h4 {
+
+        }
+      }
+    }
+    .button-container {
+      position: absolute;
+      bottom: 0;
+      a.btn-link{
+        padding: 0;
+      }
+    }
+  }
+}
+.all-news-module .row {
+  > div:nth-of-type(odd) {
+    background-color: $main-background;
+  }
+}
+
+.all-news-module{
+  .news-module{
+    min-height: 100px;
+    height: 100%;
+    margin: 0 15px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $large-min){
+      display: block;
+      overflow: auto;
+      padding: 10px 10px;
+    }
+     .publisher-container{
+      a.publisher{
+        h2{
+          font-size: 1rem;
+          margin-top: 0;
+          line-height: 1rem;
+        }
+      }
+    }
+    .date-container{
+      p{
+        font-size: $body4-font-size;
+        margin: 0;
+      }
+    }
+    .title-container{
+      position: relative;
+      a.title{
+        background-color: transparent;
+        @media screen and (max-width: $large-min){
+          padding: 0;
+          margin-top:10px;
+        }
+        h4{
+
+        }
+      }
+    }
+   .button-container{
+      a.btn-link{
+        margin-bottom: 0;
+        padding:0;
+        text-align: right;
+        @media screen and (max-width: $large-min){
+          margin-top: 15px;
+        }
+        @media screen and (max-width: $small-min){
+          margin-top: 20px;
+          font-size: .83rem;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

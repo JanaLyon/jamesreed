@@ -1,0 +1,70 @@
+.book_entry{
+  padding: 60px 0;
+  border-top: 1px solid $light-border;
+  .book-text-padding-left{
+    padding-right: 50px;
+  }
+  .book-text-padding-right{
+    padding-left: 50px;
+  }
+  > .btn-top-action{
+    margin-top: 40px;
+  }
+  img{
+    @media screen and (max-width: $medium-min){
+    }
+  }
+}
+@media screen and (min-width: $smallest) and (max-width: $medium-min) {
+  .book-title-align {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.book_entry{
+  @media screen and (max-width:$smallest){
+    padding: 40px 0;
+  }
+  .title-container{
+    position: relative;
+     bottom: auto;
+     left: auto;
+    h2{
+      @media screen and (max-width:$medium-min){
+        margin-top: 0;
+      }
+      @media screen and (max-width:550px){
+        font-size: 1.5rem;
+        line-height: 2.16rem;
+      }
+      @media screen and (max-width:450px) {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+      }
+      @media screen and (max-width:390px) {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        margin: 0 -15px 0 0;
+      }
+    }
+  }
+  .book-img{
+    @media screen and (max-width:$medium-min){
+      padding-right:30px;
+    }
+    @media screen and (max-width:560px){
+      padding-right:20px;
+    }
+    @media screen and (max-width:450px) {
+      padding-right:12px;
+    }
+    @media screen and (max-width:400px) {
+      padding-right:5px;
+    }
+    @media screen and (max-width:340px) {
+      padding-right:0;
+      margin-left: -15px;
+    }
+  }
+}
