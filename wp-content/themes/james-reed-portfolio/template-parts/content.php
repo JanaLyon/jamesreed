@@ -17,7 +17,7 @@
 
 	<div class="entry-content">
 		<?php
-            the_post_thumbnail();
+            the_post_thumbnail('header');
             the_content();
 		?>
 	</div><!-- .entry-content -->

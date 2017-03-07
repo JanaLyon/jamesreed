@@ -46,7 +46,7 @@ if ($wp_query->have_posts()) {
                         </div>
                     </div><!-- .row -->
 
-                    <div class="row monkey">
+                    <div class="row">
                         <?php
                             get_template_part('template-parts/pagination', 'none');
                             wp_reset_query(); // Restore global post data stored by the_post().
