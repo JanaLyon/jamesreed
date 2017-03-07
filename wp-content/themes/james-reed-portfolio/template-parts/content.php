@@ -16,7 +16,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-        <div class="header-container">
+        <div class="header-img-container">
             <?php the_post_thumbnail('header'); ?>
         </div>
 		<?php the_content(); ?>
