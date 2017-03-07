@@ -16,9 +16,9 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-            the_post_thumbnail('header');
-            the_content();
-		?>
+        <div class="header-container">
+            <?php the_post_thumbnail('header'); ?>
+        </div>
+		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
