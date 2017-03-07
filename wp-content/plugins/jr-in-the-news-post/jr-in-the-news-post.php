@@ -71,7 +71,7 @@ add_action( 'init', 'jr_create_taxonomy' );
 function add_news_metaboxes(){
     add_meta_box( 'jr_create_inthenews', 'Create new "In the News" post', 'jr_create_inthenews', 'jr_inthenews', 'normal', 'high' );
 }
-add_action( 'add_meta_boxes', 'add_inthenews_metaboxes' );
+add_action( 'add_meta_boxes', 'add_news_metaboxes' );
 
 function jr_create_inthenews($post) {
     wp_nonce_field( 'jr_create_inthenews_meta_box', 'jr_create_inthenews_nonce' );
@@ -91,7 +91,7 @@ function jr_create_inthenews($post) {
     echo '<input type="text" id="inthenews-date_published" name="date_published" placeholder="1st January, 2017" value="'.$date_published_value
         .'" size="50"/><br><br>';
 
-    echo '<label for="inthenews-link_to_article">'. 'Link to Article' .'</label><br>';
+    echo '<label for="inthenews-link_to_article">'. 'Link to Artigit cle' .'</label><br>';
     echo '<p class="howto">'. 'Add the link to the article' .'</p>';
     echo '<input type="text" id="inthenews-link_to_article" name="link_to_article" placeholder="https://reed.co.uk" value="'.$link_to_article_value
         .'" size="50"/><br><br>';
