@@ -20,7 +20,7 @@ $press_enquiries_box_text = get_post_meta(get_the_ID(), "4-press_enquiries_box_t
                     <p><?php echo $in_the_news_box_text; ?></p>
                 </div>
                 <div class="media-button-container">
-                    <a class="btn-action">Find out more</a>
+                    <a href="/in-the-news-hub/" class="btn-action">Find out more</a>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ $press_enquiries_box_text = get_post_meta(get_the_ID(), "4-press_enquiries_box_t
                     <p><?php echo $about_james_box_text; ?></p>
                 </div>
                 <div class="media-button-container">
-                    <a class="btn-action">Find out more</a>
+                    <a href="/about-james/" class="btn-action">Find out more</a>
                 </div>
             </div>
         </div>
@@ -49,11 +49,11 @@ $press_enquiries_box_text = get_post_meta(get_the_ID(), "4-press_enquiries_box_t
                     </div>
                 </div>
                 <div class="media-text-container">
-                    <h3>Press Enquiries</h3>
+                    <h3>Press enquiries</h3>
                     <p><?php echo $press_enquiries_box_text; ?></p>
                 </div>
                 <div class="media-button-container">
-                    <a class="btn-action">Find out more</a>
+                    <a href="https://www.reed.co.uk/press-office" class="btn-action">Find out more</a>
                 </div>
             </div>
         </div>

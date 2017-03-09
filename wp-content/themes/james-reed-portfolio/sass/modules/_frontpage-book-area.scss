@@ -1,0 +1,10 @@
+.book-container {
+  width: 86%;
+  margin: 60px 7% 0;
+  @media screen and (max-width: $large-min){
+    margin: 30px 7% 0;
+    img{
+      width: 70%;
+    }
+  }
+}

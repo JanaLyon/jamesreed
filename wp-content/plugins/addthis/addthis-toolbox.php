@@ -159,11 +159,10 @@ class Addthis_ToolBox
      */
     private static function _buildDiv($class, $inline_data = true)
     {
-        $title = get_the_title();
         $url   = get_permalink();
         if($inline_data == true){
             return "<div class='".$class." addthis_default_style addthis_toolbox at-wordpress-hide'".
-                       " data-title='".$title."' data-url='".$url."'>".
+                       " data-url='".$url."'>".
                     "</div>";
         } else {
              return "<div class='".$class." addthis_default_style addthis_toolbox at-wordpress-hide'></div>";

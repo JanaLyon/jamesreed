@@ -1,5 +1,5 @@
 <?php
-$this_query = new WP_Query('category_name=blog');
+$this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blog'));
 ?>
 
 <div class="row">
@@ -17,13 +17,12 @@ $this_query = new WP_Query('category_name=blog');
             <ul>
                 <?php
                 while ($this_query->have_posts()) {
-                    //
-                    if ($this_query->have_posts()) {
-                        $this_query->the_post(); ?>
-                        <li class='hero-module'><?php get_template_part('template-parts/article_module', 'latest_posts') ?></li>
-                    <?php
-                    } //endwhile
-                } //if ($this_query)
+                        if ($this_query->have_posts()) {
+                            $this_query->the_post();  ?>
+                            <li class='hero-module'><?php get_template_part('template-parts/article_module', 'latest_posts') ?></li>
+                            <?php
+                        } //endwhile
+                    } //if ($this_query)
                 wp_reset_query(); // Restore global post data stored by the_post().*/
                 ?>
             </ul>

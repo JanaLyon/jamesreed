@@ -83,3 +83,15 @@ ul.nav.nav-pills.nav-stacked {
 .tab-content {
   height: auto;
 }
+//press section
+.press-enquiries{
+  background-colour: $highlight-background;
+  border: 1px solid $light-border;
+  border-radius: 4px;
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  img{
+    width: 100px;
+  }
+}

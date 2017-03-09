@@ -120,7 +120,7 @@ function hide_editor() {
     if( !isset( $post_id ) ) return;
     // Hide the editor on the page titled 'Front page'
     $homepgname = get_the_title($post_id);
-    if($homepgname == "In the News"){
+    if($homepgname == "In the News" || $homepgname == "Blog"){
         remove_post_type_support('page', 'editor');
     }
     // Hide the editor on a page with a specific page template
@@ -197,11 +197,13 @@ function create_book($atts, $content = null)
     $a = shortcode_atts(array(
         'image_url' => '',
         'title' => '',
+        'buy_book' => '',
         'side' => 'left'
     ), $atts);
 
     set_query_var('bookImage', $a['image_url']);
     set_query_var('bookTitle', $a['title']);
+    set_query_var('buyBook', $a['buy_book']);
     set_query_var('imageSide', $a['side']);
     set_query_var('bookBlurb', $content);
 

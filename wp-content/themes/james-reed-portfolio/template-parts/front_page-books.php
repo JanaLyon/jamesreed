@@ -15,9 +15,9 @@ $james_books_text = get_post_meta(get_the_ID(), "5-james_books_text", true);
             </div>
             <div class="col-xs-12 col-md-6">
                 <div class="book-container text-center">
-                    <h2>James' Books</h2>
+                    <h2>James's books</h2>
                     <p><?php echo $james_books_text; ?></p>
-                    <a class="btn-action">Find out more</a>
+                    <a  href="/books/"class="btn-action">Find out more</a>
                 </div>
             </div>
         </div>

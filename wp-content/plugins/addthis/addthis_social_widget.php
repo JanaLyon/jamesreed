@@ -3,7 +3,7 @@
  * Plugin Name: Share Buttons by AddThis
  * Plugin URI: http://www.addthis.com
  * Description: Use the AddThis suite of website tools which includes sharing, following, recommended content, and conversion tools to help you make your website smarter. With AddThis, you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share, subscribe or follow.
- * Version: 5.3.4
+ * Version: 5.3.5
  * Author: The AddThis Team
  * Author URI: http://www.addthis.com/
  * License: GPL2
@@ -470,16 +470,8 @@ if ($addthis_options['addthis_plugin_controls'] == "AddThis") {
             $url = get_permalink();
         }
 
-        if (is_null($title)) {
-            $title = esc_attr(get_the_title());
-        }
-
         if (!is_null($url)) {
             $identifier =  "addthis:url='$url' ";
-        }
-
-        if (!is_null($title)) {
-            $identifier .= "addthis:title='$title'";
         }
 
         if (!isset($identifier)) {
@@ -1970,7 +1962,7 @@ EOF;
     {
         function delete_user_meta($userid, $metakey, $ignored = '')
         {
-            return delete_usermeta($userid, $metakey);
+            return delete_user_meta($userid, $metakey);
         }
     }
 
@@ -1978,7 +1970,7 @@ EOF;
     {
         function add_user_meta($userid, $metakey, $metavalue)
         {
-            return update_usermeta($userid, $metakey, $metavalue);
+            return update_user_meta($userid, $metakey, $metavalue);
         }
     }
     if (! function_exists('get_home_url'))
@@ -2095,7 +2087,8 @@ function _addthis_analytics_url() {
 function _addthis_tools_url() {
     global $addThisConfigs;
     $addthis_options = $addThisConfigs->getConfigs();
-    $toolsUrl = 'https://www.addthis.com/settings/plugin-pubs?cms=wp&pubid=' . $addThisConfigs->getProfileId();
+    $toolsUrl = 'https://www.addthis.com/dashboard#gallery/pub/'. $addThisConfigs->getProfileId();
+
     return $toolsUrl;
 }
 

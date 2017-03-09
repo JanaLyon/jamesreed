@@ -2,8 +2,8 @@
 Contributors: abramsm, srijith.v, vipinss, dnrahamim, jgrodel, bradaddthiscom, mkitzman, addthis_paul, addthis_matt, addthis_elsa, ribin_addthis, AddThis_Mike
 Tags: AddThis, bookmark, bookmarking, Facebook, LinkedIn, mobile, mobile sharing, Pinterest, plugin, share, share button, share buttons, share buttons plugin, sharing, sharing buttons, sharing sidebar, sidebar, social buttons, social tools, twitter, widget
 Requires at least: 3.0
-Tested up to: 4.5
-Stable tag: 5.3.4
+Tested up to: 4.7.3
+Stable tag: 5.3.5
 
 Increase social traffic to your website with WordPress share buttons that connect directly to over 200 social networks.
 
@@ -111,6 +111,13 @@ In the screen options you can enable the AddThis meta box. Check the box and sav
 
 
 == Changelog ==
+
+= 5.3.5 =
+* Removing data-title and addthis:title attributes from inline tool HTML so that Open Graph tags can be used.
+* Replacing deprecated update_usermeta with update_user_meta
+* Replacing deprecated delete_usermeta with delete_user_meta
+* Updating link to configure tools at AddThis.com
+* Compatibility improvements for <a href="https://wordpress.org/plugins/addthis-follow/">Follow Buttons by AddThis</a>, <a href="https://wordpress.org/plugins/addthis-related-posts/">Related Posts by AddThis</a>, <a href="https://wordpress.org/plugins/addthis-all/">Website Tools by AddThis</a> & <a href="https://wordpress.org/plugins/addthis-smart-layers/">Smart Layers by AddThis</a>.
 
 = 5.3.4 =
 * Removing reporting of WordPress version for non-admin users
@@ -462,6 +469,9 @@ Fixed nondeterministic bug with the_title(), causing the title to occasionally a
 
 
 == Upgrade Notice ==
+
+= 5.3.5 =
+Removing data-title and addthis:title attributes from inline tool HTML so that Open Graph tags can be used. Replacing some deprecated functions. Compatibility improvements for <a href="https://wordpress.org/plugins/addthis-follow/">Follow Buttons by AddThis</a>, <a href="https://wordpress.org/plugins/addthis-related-posts/">Related Posts by AddThis</a>, <a href="https://wordpress.org/plugins/addthis-all/">Website Tools by AddThis</a> & <a href="https://wordpress.org/plugins/addthis-smart-layers/">Smart Layers by AddThis</a>.
 
 = 5.3.4 =
 Removing reporting of WordPress version for non-admin users.

@@ -50,6 +50,8 @@ $videoLabel = array(
             </li>
             <?php $j++; } ?>
         </ul>
-
+        <div class="more-videos col-xs-12">
+            <a href="https://www.youtube.com/" class="btn btn-link text-right">View more videos  <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
     </div>
 </section>

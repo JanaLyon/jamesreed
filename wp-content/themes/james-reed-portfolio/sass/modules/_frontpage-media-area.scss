@@ -1,0 +1,57 @@
+//front page specific
+.media-box {
+  margin: 100px 30px;
+  @media screen and (max-width: $large-min){
+    margin: 40px 20px;
+  }
+  h3, p {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: $smallest) and (max-width: $small-min) {
+    margin: 20px 20px;
+    padding-top: 35px;
+    border-top: 1px solid $light-border;
+  }
+}
+
+.media-icon {
+  width: 100px;
+  margin: 0 auto;
+  @media screen and (min-width: $small) and (max-width: $large-min) {
+    margin: 0;
+  }
+}
+//tablet specific
+@media screen and (min-width: $small) and (max-width: $large-min) {
+  .media-box {
+    &.text-center{ text-align: left;}
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-top: 1px solid $light-border;
+    h3, p{
+      margin-top: 10px;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+    .media-icon-container {
+      width: 20%;
+    }
+    .media-text-container {
+      width: 55%;
+      padding-left: 10px;
+    }
+    .media-button-container {
+      //width: 25%;
+      margin-left: auto;
+      margin-right: 0;
+      a.btn-action{
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

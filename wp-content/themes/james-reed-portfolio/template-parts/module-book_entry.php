@@ -20,7 +20,7 @@ if ($imageSide == 'right'){
         <div class="<?php echo $bookTextPadding; ?>">
         <h2><?php echo $bookTitle; ?></h2>
         <p><?php echo $bookBlurb; ?></p>
-        <a class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="<?php echo $buyBook; ?>" class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
     </div></div>
     <?php if ($imageSide == 'right'){
         $bookClass = "pull-right";
@@ -50,7 +50,7 @@ $bookHTML = '<div class="col-xs-4 hidden-sm hidden-md hidden-lg"><img class="cen
     <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <div>
             <p><?php echo $bookBlurb; ?></p>
-            <a class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a  href="<?php echo $buyBook; ?>" class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>

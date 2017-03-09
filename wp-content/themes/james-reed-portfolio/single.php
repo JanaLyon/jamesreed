@@ -23,8 +23,8 @@ get_header(); ?>
                 endwhile; // End of the loop.
                 ?>
                 <nav class="post-navigation">
-                    <span class="prev-post"><  <?php previous_post_link('%link', 'Prev', TRUE); ?></span>
-                    <span class="next-post"><?php next_post_link( '%link', 'Next', TRUE ); ?>  ></span>
+                    <span class="prev-post"><?php previous_post_link('%link', '<  Prev', TRUE); ?></span>
+                    <span class="next-post"><?php next_post_link( '%link', 'Next  >', TRUE ); ?> </span>
                 </nav>
             </main><!-- #main -->
         </div><!-- #primary -->

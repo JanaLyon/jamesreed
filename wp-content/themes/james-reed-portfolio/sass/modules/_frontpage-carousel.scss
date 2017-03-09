@@ -1,0 +1,112 @@
+@media screen and(min-width: $smallest) and (max-width: $medium-min){
+    #latest_posts{
+    h2{
+        font-size: 1.3rem;
+        line-height: 1.7;
+        margin-top: 26px;
+    }
+}
+}
+
+.front-page-slider {
+    margin: 40px 0;
+    max-width: 100%;
+@media screen and(min-width: $smallest) and (max-width: $medium-min){
+    margin: 30px 0;
+}
+}
+
+.hero-module {
+    width: 400px;
+    margin-right: 30px;
+.article-module {
+    background-color: white;
+    border-bottom: transparent;
+}
+@media screen and(min-width: $smallest) and (max-width: 764px){
+    width: 250px !important;
+    margin-right: 15px;
+    height: 305px !important;
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    .title-container{
+    p{
+        padding: 5px 7px 1px;
+    }
+    a.title{
+        padding: 3px 5px 6px;
+    h4{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}
+}
+.text-container{
+    padding: 0px 7px 5px;
+    min-height: 90px;
+}
+.button-container{
+a.btn-link{
+    padding: 5px 7px;
+    font-size: 0.7rem;
+}
+}
+}
+}
+button.carousel-control{
+    position: absolute;
+    top: 25px;
+    left: auto;
+    bottom: auto;
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0;
+    background-color: transparent;
+&:hover {
+     width: 50px;
+     height: 50px;
+     top: 20px;
+ }
+}
+
+.prev {
+    right: 55px;
+    background-image: url("img/arrowleft.svg");
+    background-repeat: no-repeat;
+&:hover{
+     width:50px;
+     height: 50px;
+     top: 20px;
+     right: 50px;
+     background-image: url("img/arrowleft.svg");
+     background-repeat: no-repeat;
+     -webkit-transition: width .2s, height .2s, right .2s, top .2s; /* Safari */
+     transition: width .2s, height .2s, right .2s, top .2s;
+ }
+}
+
+.next {
+    right: 5px;
+    background-image: url("img/arrowright.svg");
+    background-repeat: no-repeat;
+&:hover{
+     width:50px;
+     height: 50px;
+     top: 20px;
+     right: 0px;
+     background-image: url("img/arrowright.svg");
+     background-repeat: no-repeat;
+     -webkit-transition: width .2s, height .2s, right .2s, top .2s; /* Safari */
+     transition: width .2s, height .2s, right .2s, top .2s;
+ }
+}
+
+.slider-padding {
+    padding-bottom: 40px;
+}

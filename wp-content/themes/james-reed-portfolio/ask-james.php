@@ -117,7 +117,7 @@ get_header();
                         </div><!-- .row -->
                         <div class="row">
                             <div class="col-xs-12 text-center">
-                                <a class="btn-action">View more articles</a>
+                                <a href="https://www.reed.co.uk/career-advice/life-at-work/ask-james/" class="btn-action">View more articles</a>
                             </div>
                         </div><!-- .row -->
                     </div><!-- .container -->

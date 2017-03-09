@@ -45,26 +45,36 @@ if (!class_exists('AddThisWordPressConnector')) {
         );
 
         static $sharedVariables = array(
-            // general
+           // general
             'addthis_anonymous_profile',
             'addthis_asynchronous_loading',
-            'addthis_environment',
             'addthis_per_post_enabled',
-            'addthis_plugin_controls',
             'addthis_profile',
-            'api_key',
             'addthis_rate_us',
             'addthis_rate_us_timestamp',
+            'profile_edition',
+            'api_key',
+            'ajax_support',
             'credential_validation_status',
-            'debug_profile_level',
-            'debug_profile_type',
+            'filter_get_the_excerpt',
+            'filter_the_excerpt',
+            'filter_wp_trim_excerpt',
             'script_location',
+            'startUpgradeAt',
             'wpfooter',
             'xmlns_attrs',
             'follow_buttons_feature_enabled',
             'recommended_content_feature_enabled',
             'sharing_buttons_feature_enabled',
-            'trending_content_feature_enabled',
+            'html',
+            'enqueue_client',
+            'enqueue_local_settings',
+            // debug settings
+            'debug_enable',
+            'addthis_plugin_controls',
+            'addthis_environment',
+            'darkseid_environment',
+            'settings_ui_base_url',
             // addthis_share
             'addthis_twitter_template',
             'addthis_bitly',
@@ -79,6 +89,7 @@ if (!class_exists('AddThisWordPressConnector')) {
             'addthis_layers_recommended_json',
             'addthis_layers_trending_json',
             'addthis_layers_welcome_json',
+            'smart_layers_bad_json',
             // addthis_config
             'data_ga_property',
             'addthis_language',
@@ -91,18 +102,6 @@ if (!class_exists('AddThisWordPressConnector')) {
             'addthis_config_recommended_json',
             'addthis_config_trending_json',
             'addthis_config_welcome_json',
-            // new code base only fields
-            'ajax_support',
-            'darkseid_environment',
-            'debug_enable',
-            'debug_profile_level',
-            'debug_profile_type',
-            'filter_get_the_excerpt',
-            'filter_the_excerpt',
-            'filter_wp_trim_excerpt',
-            'profile_edition',
-            'settings_ui_base_url',
-            'startUpgradeAt',
         );
 
         static $deprecatedSharedVariables = array(
