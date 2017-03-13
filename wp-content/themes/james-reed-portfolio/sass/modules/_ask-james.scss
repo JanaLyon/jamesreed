@@ -1,11 +1,11 @@
 //Ask James front page module
 .header-container {
   margin-top: 60px;
-  @media screen and (max-width: $medium-min) {
-    margin-top: 25px;
+  @media screen and (max-width: $large-min) {
+    margin-top: 20px;
   }
   @media screen and (max-width: $small) {
-    margin-top: 0;
+    margin-top: 10px;
   }
   img {
     border-radius: 4px;
@@ -15,9 +15,26 @@
 
 .top-box {
   position: relative;
-  h3{
+  h3 {
     font-size: 1.5rem;
+    line-height: 1.7rem;
     margin-top: 15px;
+    @media screen and (max-width: 660px){
+      margin-top: 7px;
+    }
+    @media screen and (max-width: 500px){
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+      margin-top: 7px;
+    }
+    @media screen and (max-width: 420px){
+      font-size: 1rem;
+      margin-top: 7px;
+    }
+    @media screen and (max-width: $smallest){
+      font-size: .9rem;
+      margin-top: 5px;
+    }
   }
 }
 
@@ -97,30 +114,42 @@
 .h2-ask-james {
   margin-top: 50px;
   margin-bottom: 30px;
-  @media screen and (max-width: $medium-min) {
+  @media screen and (max-width: $large-min) {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 1.5rem;
   }
 }
-a.twitter-button{
+
+a.twitter-button {
   color: white;
   padding: 5px 20px;
   font-size: 1rem;
   background-color: #1b95e0;
   border: 1px solid #1b95e0;
   border-radius: 4px;
-  &:hover{
+  &:hover {
     text-decoration: none;
     background-color: white;
     color: #1b95e0;
   }
 }
+
 //Ask James Page
-.top-box-ask-james{
+.top-box-ask-james {
   position: relative;
-  .text
-  .entry-title-large{
+  .text-overlay {
+    @media screen and (max-width: $extra-large-min) {
+      margin-top: 0;
+      .entry-title{
+        margin-top: 20px;
+      }
+      .ask-james-content {
+        font-size: .9rem;
+      }
+    }
+  }
+  .entry-title-large {
     position: absolute;
     top: 5%;
     margin-left: 40%;
@@ -128,7 +157,7 @@ a.twitter-button{
     width: 60%;
     font-size: 2.5rem;
   }
-  .ask-james-content{
+  .ask-james-content {
     display: block;
   }
 }

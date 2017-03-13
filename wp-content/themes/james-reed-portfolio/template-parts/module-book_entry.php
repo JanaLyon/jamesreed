@@ -51,7 +51,7 @@ $bookHTML = '<div class="col-xs-4 hidden-sm hidden-md hidden-lg"><img class="cen
     <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <div>
             <p><?php echo $bookBlurb; ?></p>
-            <a href="<?php echo $buyBook; ?>" class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="<?php echo $buyBook; ?>" class="btn-top-action" target="_blank">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>

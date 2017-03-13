@@ -52,19 +52,24 @@
   .book-img{
     @media screen and (max-width:$medium-min){
       padding-right:30px;
+      width: 80%;
     }
     @media screen and (max-width:560px){
       padding-right:20px;
+      width: 100%;
     }
     @media screen and (max-width:450px) {
       padding-right:12px;
+      width: 100%;
     }
     @media screen and (max-width:400px) {
       padding-right:5px;
+      width: 100%;
     }
     @media screen and (max-width:340px) {
       padding-right:0;
       margin-left: -15px;
+      width: 100%;
     }
   }
 }

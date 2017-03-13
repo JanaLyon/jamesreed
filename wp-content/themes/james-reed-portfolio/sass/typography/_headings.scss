@@ -50,9 +50,22 @@ h4{
 
 .h1-large{
   font-size: 2.8rem;
-  @media screen and (max-width: $medium-min){
+  @media screen and (max-width: $medium){
     font-size: 2.2rem;
-    //line-height: $h1-line-height;
+  }
+  @media screen and (max-width: $medium-min){
+    font-size: 2.6rem;
+  }
+  @media screen and (max-width: 660px){
+    font-size: 2.3rem;
+    margin-top: 15px;
+  }
+  @media screen and (max-width: 500px){
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 420px){
+    font-size: 1.6rem;
   }
 }
 .h1-inthenews{
