@@ -191,7 +191,7 @@ require get_template_directory() . '/inc/jetpack.php';
 /*
  * Short code
  */
-//[book_entry image_url="" title="" side=""]content[/book_entry]
+//[book_entry image_url="" title="" side="" buy_book=""]content[/book_entry]
 function create_book($atts, $content = null)
 {
     ob_start();
@@ -199,13 +199,13 @@ function create_book($atts, $content = null)
     $a = shortcode_atts(array(
         'image_url' => '',
         'title' => '',
-        'buy_book' => '',
+        'buy_url' => '',
         'side' => 'left'
     ), $atts);
 
     set_query_var('bookImage', $a['image_url']);
     set_query_var('bookTitle', $a['title']);
-    set_query_var('buyBook', $a['buy_book']);
+    set_query_var('buyBook', $a['buy_url']);
     set_query_var('imageSide', $a['side']);
     set_query_var('bookBlurb', $content);
 

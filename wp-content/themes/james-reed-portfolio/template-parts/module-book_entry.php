@@ -1,6 +1,7 @@
 <?php
 
 extract($wp_query->query_vars);
+
 $bookHTML = '<div class="col-sm-4 hidden-xs"><img class="center-block" src="'. $bookImage .'" alt="'. $bookTitle .'" class="book-image '. $bookClass .'" /></div >';
 if($imageSide == 'left') {
     $bookTextPadding = "book-text-padding-left";
@@ -50,7 +51,7 @@ $bookHTML = '<div class="col-xs-4 hidden-sm hidden-md hidden-lg"><img class="cen
     <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <div>
             <p><?php echo $bookBlurb; ?></p>
-            <a  href="<?php echo $buyBook; ?>" class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="<?php echo $buyBook; ?>" class="btn-top-action">Buy the book <i class="fa fa-external-link" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>
