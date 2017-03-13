@@ -23,8 +23,8 @@
 }
 
 .book_entry{
-  @media screen and (max-width:$smallest){
-    padding: 40px 0;
+  @media screen and (max-width:$small){
+    padding: 30px 0;
   }
   .title-container{
     position: relative;

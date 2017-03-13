@@ -110,8 +110,6 @@ function james_reed_portfolio_widgets_init() {
 }
 add_action( 'widgets_init', 'james_reed_portfolio_widgets_init' );
 
-
-
 /**
  * Hide editor on specific pages.
  */
@@ -125,12 +123,6 @@ function hide_editor() {
     if($homepgname == "In the News" || $homepgname == "Blog"){
         remove_post_type_support('page', 'editor');
     }
-    // Hide the editor on a page with a specific page template
-    // Get the name of the Page Template file.
-    /*$template_file = get_post_meta($post_id, '_wp_page_template', true);
-    if($template_file == 'my-page-template.php'){ // the filename of the page template
-        remove_post_type_support('page', 'editor');
-    }*/
 }
 
 /**

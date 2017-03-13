@@ -45,13 +45,13 @@ $inthenews_query = new WP_Query(array('post_type' => 'jr_inthenews'));
                 </div><!-- .row -->
                 <div class="row">
                     <section class="press-enquiries space-top-40">
-                        <div class="col-md-2">
+                        <div class="col-xs-12 col-md-2">
                             <img src="/wp-content/themes/james-reed-portfolio/img/press-icon.svg" width="100px" height="auto" />
                             </div>
-                        <div class="col-md-8">
+                        <div class="col-xs-12 col-md-8">
                         <p>If you’re a member of the media and you’d like to interview James or receive a comment for a story you’re covering, click here to get in touch with a member of our press team.</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-12 col-md-2">
                             <a href="mailto:press.enquiries@reedonline.co.uk" class="btn-action">Press enquiries</a>
                         </div>
                     </section>

@@ -5,9 +5,9 @@
                 <?php
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('article-module-responsive');
-                } else {
+                } /*else {
                     echo "<img src='/wp-content/themes/reed-career-advice/img/fallback_image.jpg' />";
-                }
+                }*/
                 ?>
             </a>
             <div class="title-container">

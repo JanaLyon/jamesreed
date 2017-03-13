@@ -139,9 +139,6 @@ ul#primary-menu {
     .fa {
       font-size: 1.3rem;
     }
-    @media screen and (max-width: $large-min) {
-      //display: none;
-    }
   }
 }
 
@@ -150,6 +147,7 @@ ul#primary-menu {
 .main-navigation.toggled ul {
   display: inline-block;
   height: 43px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: $large) {
