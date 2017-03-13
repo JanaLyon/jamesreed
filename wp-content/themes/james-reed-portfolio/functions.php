@@ -75,7 +75,7 @@ add_action( 'after_setup_theme', 'james_reed_portfolio_setup' );
 add_action( 'after_setup_theme', 'custom_img_size_setup' );
 function custom_img_size_setup() {
     add_image_size( 'header', 1200, 530, array('center', 'center') );
-    add_image_size( 'article-module-responsive', 720, array('center', 'center') );
+    add_image_size( 'article-module-responsive', 720, 460, array('center', 'center') );
     add_image_size( 'article-module-large', 460, 259, array('center', 'center') );
     add_image_size( 'article-module-small', 360, 203, array('center', 'center') );
 }
@@ -109,6 +109,8 @@ function james_reed_portfolio_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'james_reed_portfolio_widgets_init' );
+
+
 
 /**
  * Hide editor on specific pages.

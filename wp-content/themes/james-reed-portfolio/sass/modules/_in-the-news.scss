@@ -85,13 +85,23 @@ ul.nav.nav-pills.nav-stacked {
 }
 //press section
 .press-enquiries{
-  background-colour: $highlight-background;
+  background-color: $main-background;
   border: 1px solid $light-border;
   border-radius: 4px;
   padding: 20px;
   display:flex;
   align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
   img{
     width: 100px;
   }
+  @media screen and(max-wdith: $medium-min){
+    display: block;
+    text-align: center;
+    img{
+      margin: 0 auto;
+    }
+  }
+
 }

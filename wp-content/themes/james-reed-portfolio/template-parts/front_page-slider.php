@@ -43,6 +43,6 @@ $this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blo
 </script>
 <div class="row">
     <div class="col-xs-12">
-        <a class="btn btn-action slider-btn-margin">View all articles</a>
+        <a href="/blog/" class="btn btn-action slider-btn-margin">View all articles</a>
     </div>
 </div>

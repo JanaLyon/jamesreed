@@ -53,19 +53,21 @@ get_header();
                     while (have_posts()) : the_post();
                         ?>
 
-                        <section id="post-<?php the_ID(); ?>" class="top-box">
+                        <section id="post-<?php the_ID(); ?>" class="top-box-ask-james">
                             <div class="header-container col-xs-12">
+                                <?php the_title('<h1 class="hidden-sm hidden-md hidden-lg entry-title">', '</h2>'); ?>
                                 <?php the_post_thumbnail('header'); ?>
+                                <?php the_title('<h1 class="hidden-xs hidden-md hidden-lg entry-title-large">', '</h2>'); ?>
                                 <div class="text-overlay">
                                 <?php if($picture_side == "left") {?>
-                                    <div class="col-sm-6"></div>
+                                    <div class="hidden-xs hidden-sm col-md-6"></div>
                                     <?php } ?>
-                                    <div class="col-sm-6">
-                                        <?php the_title('<h1 class="entry-title">', '</h2>'); ?>
+                                    <div class="col-xs-12 col-md-6">
+                                        <?php the_title('<h1 class="hidden-xs hidden-sm entry-title">', '</h2>'); ?>
                                         <?php the_content(); ?>
                                     </div>
                                     <?php if($picture_side == "right") {?>
-                                        <div class="col-sm-6"></div>
+                                        <div class="hidden-xs hidden-sm col-md-6"></div>
                                     <?php } ?>
                                 </div>
                             </div>

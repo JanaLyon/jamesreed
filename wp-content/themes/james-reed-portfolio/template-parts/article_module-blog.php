@@ -4,7 +4,7 @@
             <a href="<?php the_permalink(); ?>">
                 <?php
                 if (has_post_thumbnail()) {
-                    the_post_thumbnail('article-module-small');
+                    the_post_thumbnail('article-module-responsive');
                 } else {
                     echo "<img src='/wp-content/themes/reed-career-advice/img/fallback_image.jpg' />";
                 }
