@@ -2,6 +2,8 @@
 $this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blog'));
 ?>
 
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
 <div class="row">
     <div class="col-xs-9">
         <h2>Latest blog posts</h2>
@@ -29,15 +31,45 @@ $this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blo
         </div>
     </div>
 </div>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script>
 
-    jQuery(function () {
-        jQuery(".front-page-slider").jCarouselLite({
-            btnNext: ".next",
-            btnPrev: ".prev",
-            visible: 2.8,
-            circular: false
+    jQuery(function ($) {
+        $('.front-page-slider ul').slick({
+            dots: false,
+//            arrows: false,
+            prevArrow:$(".prev"),
+            nextArrow:$(".next"),
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3.5,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1.5,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
         });
     });
 </script>

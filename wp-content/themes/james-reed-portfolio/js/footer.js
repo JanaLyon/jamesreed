@@ -1,4 +1,4 @@
-$(function () {
+jQuery(function ($) {
   function initFooter() {
     var $titles = $('.footer-nav .title');
     var $navs = $titles.next();

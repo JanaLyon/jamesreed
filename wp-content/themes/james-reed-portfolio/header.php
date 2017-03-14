@@ -80,7 +80,7 @@
                 </div>
 
                 <script>
-                    jQuery(document).ready(function () {
+                    jQuery(document).ready(function ($) {
                         $(".burger").click(function () {
                             $(".burger").toggleClass("open");
                             $(".menu-main-menu-container").toggleClass("show-menu");

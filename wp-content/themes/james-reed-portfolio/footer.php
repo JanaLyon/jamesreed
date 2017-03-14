@@ -152,7 +152,7 @@
 					})();
 				</script>
 				
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 				<script type="text/javascript" src="/wp-content/themes/james-reed-portfolio/js/footer.js"></script>
 				
 			</div><!-- .site-info -->
