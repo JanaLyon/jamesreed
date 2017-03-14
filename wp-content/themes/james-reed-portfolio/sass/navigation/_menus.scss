@@ -214,12 +214,24 @@ ul#primary-menu {
 }
 
 .burger.open .icon {
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
   transition-delay: 0.5s;
   background: transparent;
 }
 
 .burger.open .icon:before {
+  -webkit-transition: top 0.5s, transform 0.5s 0.5s;
+  -moz-transition: top 0.5s, transform 0.5s 0.5s;
+  -ms-transition: top 0.5s, transform 0.5s 0.5s;
+  -o-transition: top 0.5s, transform 0.5s 0.5s;
   transition: top 0.5s, transform 0.5s 0.5s;
   top: 0;
   background: white;
@@ -227,6 +239,10 @@ ul#primary-menu {
 }
 
 .burger.open .icon:after {
+  -webkit-transition: top 0.4s, transform 0.5s 0.5s;
+  -moz-transition: top 0.4s, transform 0.5s 0.5s;
+  -ms-transition: top 0.4s, transform 0.5s 0.5s;
+  -o-transition: top 0.4s, transform 0.5s 0.5s;
   transition: top 0.4s, transform 0.5s 0.5s;
   top: 0;
   background: white;

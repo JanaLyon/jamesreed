@@ -40,13 +40,13 @@
                                             width="29px" height="auto" alt="Reed logo"/></a>
                             </li>
                             <li class="menu-item">
-                                <a href="http://www.reed.co.uk/">Jobs</a>
+                                <a class="global-nav-txt-active" href="http://www.reed.co.uk/">Jobs</a>
                             </li>
                             <li class="menu-item item1">
                                 <a href="http://www.reed.co.uk/courses/">Courses</a>
                             </li>
                             <li class="menu-item item2">
-                                <a class="global-nav-txt-active" href="http://www.reed.co.uk/career-advice/">Career
+                                <a href="http://www.reed.co.uk/career-advice/">Career
                                     Advice</a>
                             </li>
                         </ul>

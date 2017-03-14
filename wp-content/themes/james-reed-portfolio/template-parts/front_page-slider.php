@@ -34,12 +34,12 @@ $this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blo
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script>
 
-    jQuery(function ($) {
-        $('.front-page-slider ul').slick({
+    jQuery(function () {
+        jQuery('.front-page-slider ul').slick({
             dots: false,
 //            arrows: false,
-            prevArrow:$(".prev"),
-            nextArrow:$(".next"),
+            prevArrow:jQuery(".prev"),
+            nextArrow:jQuery(".next"),
             infinite: false,
             speed: 300,
             slidesToShow: 3.5,
@@ -62,7 +62,7 @@ $this_query = new WP_Query(array( 'posts_per_page' => 5, 'category_name' => 'blo
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 1.2,
                         slidesToScroll: 1
                     }
                 }

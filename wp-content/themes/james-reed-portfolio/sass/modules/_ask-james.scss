@@ -42,6 +42,9 @@
   position: absolute;
   top: 7%;
   text-align: center;
+  @media screen and (min-width: $extra-large) {
+    top: 14%;
+  }
   @media screen and (max-width: $large-min) {
     position: relative;
   }
