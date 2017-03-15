@@ -40,10 +40,12 @@
 
 .text-overlay {
   position: absolute;
-  top: 7%;
   text-align: center;
   @media screen and (min-width: $extra-large) {
     top: 14%;
+  }
+  @media screen and (max-width: $extra-large-min) {
+    top: 7%;
   }
   @media screen and (max-width: $large-min) {
     position: relative;
