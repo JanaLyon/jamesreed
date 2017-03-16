@@ -206,3 +206,17 @@ function create_book($atts, $content = null)
 }
 
 add_shortcode('book_entry', 'create_book');
+
+function add_custom_class($classes=array(), $menu_item=false) {
+    if ( !is_page() && 'Blog' == $menu_item->title &&
+        !in_array( 'current-menu-item', $classes ) ) {
+        $classes[] = 'current-menu-item';
+    }
+    global $pagename;
+    if ( 'in-the-news-all-articles' === $pagename && 'In the News' == $menu_item->title &&
+        !in_array( 'current-menu-item', $classes ) ) {
+        $classes[] = 'current-menu-item';
+    }
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_custom_class', 100, 2);
