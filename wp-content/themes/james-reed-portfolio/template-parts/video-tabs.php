@@ -43,7 +43,7 @@ $videoLabel = array(
             <li class="<?php echo $activeClass; ?>">
                 <a data-toggle="tab" href="#tab<?php echo $j; ?>">
                     <?php echo $videoLabel[$j]; ?>
-                    <img src="/wp-content/themes/james-reed-portfolio/img/play_icon.svg" width="25px" height="25px" class="play-icon" />
+                    <img src="/james-reed/wp-content/themes/james-reed-portfolio/img/play_icon.svg" width="25px" height="25px" class="play-icon" />
                 </a>
             </li>
             <?php }

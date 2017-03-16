@@ -13,8 +13,8 @@
 
 	</div><!-- #content -->
 
-	<link href="/wp-content/themes/james-reed-portfolio/css/footer.css" rel="stylesheet"/>
-    <script src="/wp-content/themes/james-reed-portfolio/js/modernizr.js" type="text/javascript"></script>
+	<link href="/james-reed/wp-content/themes/james-reed-portfolio/css/footer.css" rel="stylesheet"/>
+    <script src="/james-reed/wp-content/themes/james-reed-portfolio/js/modernizr.js" type="text/javascript"></script>
 			
 			<div class="site-info">
 				<footer id="site-footer" role="contentinfo">
@@ -86,7 +86,7 @@
 										<li><a href="http://www.jamesreed.com/" target="_blank" title="This link opens in a new window" class="gtmFooterNav">James Reed - Official Site</a></li>
 									</ul>
 									<div class="lovemondays-logo">
-										<img src="/wp-content/themes/james-reed-portfolio/img/love-mondays.png" alt="Love Mondays" title="Love Mondays" width="189" height="33"/>
+										<img src="/james-reed/wp-content/themes/james-reed-portfolio/img/love-mondays.png" alt="Love Mondays" title="Love Mondays" width="189" height="33"/>
 									</div>
 
 								</nav>
@@ -104,13 +104,13 @@
 						<div class="footer-content">
 							<!-- Love Mondays -->
 							<div class="lovemondays-logo">
-								<img src="/wp-content/themes/james-reed-portfolio/img/love-mondays.png" alt="Love Mondays" title="Love Mondays" width="189" height="33"/>
+								<img src="/james-reed/wp-content/themes/james-reed-portfolio/img/love-mondays.png" alt="Love Mondays" title="Love Mondays" width="189" height="33"/>
 							</div>
 
 							<!-- Book -->
 							<div class="book">
 								<a href="http://www.amazon.co.uk/gp/product/0241970210/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0241970210&linkCode=as2&tag=reedcouk0c-21&linkId=4FSZ2EP4OSI2CAHN" title="Buy James Reed's new book" rel="nofollow" target="_blank" class="gtmFooterNav">
-									<img src="/wp-content/themes/james-reed-portfolio/img/why-you.png" alt="Buy James Reed's new book" title="Buy James Reed's new book" width="80" height="143"/>
+									<img src="/james-reed/wp-content/themes/james-reed-portfolio/img/why-you.png" alt="Buy James Reed's new book" title="Buy James Reed's new book" width="80" height="143"/>
 								</a>
 								<p>
 									<span class="bigger">Interview coming up?</span><br/>
@@ -153,7 +153,7 @@
 				</script>
 				
 <!--				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
-				<script type="text/javascript" src="/wp-content/themes/james-reed-portfolio/js/footer.js"></script>
+				<script type="text/javascript" src="/james-reed/wp-content/themes/james-reed-portfolio/js/footer.js"></script>
 				
 			</div><!-- .site-info -->
 		</div><!-- .row -->
