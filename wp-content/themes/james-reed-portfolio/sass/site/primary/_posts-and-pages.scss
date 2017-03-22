@@ -26,7 +26,7 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
-//post particulars
+/* post particulars */
 .header-img-container{
 	img{
 		border-radius: 4px;
@@ -64,7 +64,7 @@
 .prev-post{
 	float: left;
 }
-//backgrounds
+/* backgrounds */
 .dark-background{
 	background-color: $video-background;
 }
@@ -80,7 +80,7 @@
 	padding-bottom: 50px;
 }
 
-//containers
+/* containers */
 @media screen and (min-width: $smallest){
 	.container{
 		padding-right: 10px;
@@ -94,5 +94,4 @@
 		margin-left: -10px;
 		margin-right: -10px;
 	}
-
 }

@@ -17,8 +17,6 @@ h2{
   font-size: $h2-font-size;
   line-height: $h2-line-height;
   @media screen and (max-width: $medium-min){
-    //font-size: $h1-font-size;
-    //line-height: $h1-line-height;
   }
 }
 h3{
@@ -73,8 +71,6 @@ h4{
   margin-top: 0;
   margin-bottom: 30px;
   @media screen and (max-width: $large-min){
-    //font-size: $h1-font-size;
-    //line-height: $h1-line-height;
     margin-bottom: 20px;
   }
 }

@@ -1,4 +1,4 @@
-//front page specific
+/* front page specific */
 .media-box {
   margin: 100px 30px;
   @media screen and (max-width: $large-min){
@@ -21,7 +21,7 @@
     margin: 0;
   }
 }
-//tablet specific
+/* tablet specific */
 @media screen and (min-width: $small) and (max-width: $large-min) {
   .media-box {
     &.text-center{ text-align: left;}
@@ -46,7 +46,6 @@
       padding-left: 10px;
     }
     .media-button-container {
-      //width: 25%;
       margin-left: auto;
       margin-right: 0;
       a.btn-action{

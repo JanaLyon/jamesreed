@@ -1,13 +1,12 @@
 .widget {
   margin: 0 0 1.5em;
-
   /* Make sure select elements fit in widgets. */
   select {
     max-width: 100%;
   }
 }
 
-//recent posts
+/* recent posts */
 .recent-posts-block {
   margin-top: 50px;
   h3 {
@@ -49,7 +48,7 @@
   }
 }
 
-//twitter
+/* twitter */
 .widget_twitter_timeline{
   border-radius: 4px;
   border: 1px solid $light-border;

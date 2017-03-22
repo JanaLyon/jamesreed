@@ -15,7 +15,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="icon" type="image/jpg" href="/james-reed/wp-content/themes/james-reed-portfolio/img/reed-icon-57x57.jpg">
+    <link rel="icon" type="image/jpg" href="/<?php echo get_template_directory_uri(); ?>/img/reed-icon-57x57.jpg">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <?php wp_head(); ?>
@@ -33,10 +33,10 @@
                     <div class="col-xs-12">
                         <ul id="menu-top-menu" class="nav nav-custom navbar-nav menu">
                             <li class="menu-item">
-                                <a class="logo"><img src="/james-reed/wp-content/themes/james-reed-portfolio/img/reedlogo.svg"
+                                <a class="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/reedlogo.svg"
                                                      width="110px" height="auto" alt="Reed logo"/></a>
                                 <a class="logo-sm"><img
-                                            src="/james-reed/wp-content/themes/james-reed-portfolio/img/reed-r-logo.svg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/reed-r-logo.svg"
                                             width="29px" height="auto" alt="Reed logo"/></a>
                             </li>
                             <li class="menu-item">
@@ -60,7 +60,7 @@
                     <div class="container burger-menu">
                         <div class="row">
                             <div class="col-xs-12">
-                                <a class="home-btn" href="/"><span
+                                <a class="home-btn" href="/james-reed/"><span
                                             class="glyphicon glyphicon-home glyph-padding burger-header"></span></a>
                                 <div class="home-text burger-header">James Reed</div>
                                 <div class="burger menu menu-toggle" aria-controls="primary-menu" aria-expanded="false">

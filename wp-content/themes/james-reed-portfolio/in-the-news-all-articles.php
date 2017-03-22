@@ -13,7 +13,7 @@ $inthenews_query = new WP_Query(array('post_type' => 'jr_inthenews'));
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="btn-link space-top-40" href="/in-the-news-hub/"><i class="fa fa-chevron-left"
+                        <a class="btn-link space-top-40" href="/james-reed/in-the-news-hub/"><i class="fa fa-chevron-left"
                                                                         aria-hidden="true"></i> Back to In the news</a>
                     </div>
                 </div>

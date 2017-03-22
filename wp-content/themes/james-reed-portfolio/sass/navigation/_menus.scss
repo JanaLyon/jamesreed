@@ -88,7 +88,7 @@
   }
 }
 
-#primary-menu ul{
+ul#primary-menu {
   padding: 0;
   margin: 0;
   li:first-of-type {
@@ -156,7 +156,7 @@
   }
 }
 
-//burger menu
+/* burger menu */
 .burger {
   float: right;
 }
@@ -267,8 +267,7 @@
   transition: max-height 1s ;
 }
 
-//other
-
+/* other */
 .comment-navigation,
 .posts-navigation,
 .post-navigation {

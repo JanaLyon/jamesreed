@@ -13,8 +13,8 @@ while (have_posts()) : the_post();
                 <div class="header-container col-xs-12">
                     <?php the_post_thumbnail('header'); ?>
                     <div class="text-overlay-mobile">
-                            <h1 class="h1-large hidden-md hidden-lg">James Reed</h1>
-                            <h3 class="hidden-md hidden-lg"><?php echo $james_job_title; ?></h3>
+                        <h1 class="h1-large hidden-md hidden-lg">James Reed</h1>
+                        <h3 class="hidden-md hidden-lg"><?php echo $james_job_title; ?></h3>
                     </div>
                     <div class="text-overlay">
                         <?php if ($picture_side == "left") { ?>

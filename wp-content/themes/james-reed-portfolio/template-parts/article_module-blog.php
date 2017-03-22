@@ -5,13 +5,11 @@
                 <?php
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('article-module-responsive');
-                } /*else {
-                    echo "<img src='/wp-content/themes/reed-career-advice/img/fallback_image.jpg' />";
-                }*/
+                }
                 ?>
             </a>
             <div class="title-container">
-                <p><?php echo get_the_date(); ?></p>
+                <a class="date"><?php echo get_the_date(); ?></a>
                 <a class="title" href="<?php the_permalink(); ?>">
                     <h4><?php the_title(); ?></h4>
                 </a>

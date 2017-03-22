@@ -29,7 +29,7 @@
     ?>
 </div>
 <div class="button-container view-all">
-    <a href="/blog" class="btn btn-link">
+    <a href="/james-reed/blog" class="btn btn-link">
         View all <i class="fa fa-chevron-right" aria-hidden="true"></i>
     </a>
 </div>
