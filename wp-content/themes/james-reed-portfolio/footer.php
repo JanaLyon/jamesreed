@@ -83,7 +83,7 @@
 										<li><a href="http://www.reedlearning.com/" target="_blank" title="This link opens in a new window" class="gtmFooterNav">Reed Learning</a></li>
 										<li><a href="http://www.reedinpartnership.co.uk/" target="_blank" title="This link opens in a new window" class="gtmFooterNav">Reed in Partnership</a></li>
 										<li><a href="https://www.reedglobal.com/en_GB/web/reedgb/jobs/work-for-reed" target="_blank" title="This link opens in a new window" class="gtmFooterNav">Careers with REED</a></li>
-										<li><a href="http://www.jamesreed.com/" target="_blank" title="This link opens in a new window" class="gtmFooterNav">James Reed - Official Site</a></li>
+										<li><a href="https://www.reed.co.uk/james-reed/" target="_blank" title="This link opens in a new window" class="gtmFooterNav">James Reed - Official Site</a></li>
 									</ul>
 									<div class="lovemondays-logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/love-mondays.png" alt="Love Mondays" title="Love Mondays" width="189" height="33"/>
@@ -110,7 +110,7 @@
 							<!-- Book -->
 							<div class="book">
 								<a href="http://www.amazon.co.uk/gp/product/0241970210/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0241970210&linkCode=as2&tag=reedcouk0c-21&linkId=4FSZ2EP4OSI2CAHN" title="Buy James Reed's new book" rel="nofollow" target="_blank" class="gtmFooterNav">
-									<img src="<?php echo get_template_directory_uri(); ?>img/why-you.png" alt="Buy James Reed's new book" title="Buy James Reed's new book" width="80" height="143"/>
+									<img src="/resources/cms/images/footer/why-you.png" alt="Buy James Reed's new book" title="Buy James Reed's new book" width="80" height="143"/>
 								</a>
 								<p>
 									<span class="bigger">Interview coming up?</span><br/>
@@ -151,8 +151,6 @@
 						document.getElementById('footerYear').textContent = curYear;						
 					})();
 				</script>
-				
-<!--				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 				<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/footer.js"></script>
 				
 			</div><!-- .site-info -->

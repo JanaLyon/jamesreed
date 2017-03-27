@@ -92,12 +92,12 @@ ul#primary-menu {
   padding: 0;
   margin: 0;
   li:first-of-type {
-    padding: 10px 15px 8px 3px;
+    padding: 10px 15px 7px 3px;
   }
   li {
     display: inline-block;
     list-style: none;
-    padding: 10px 15px 8px;
+    padding: 10px 15px 7px;
     @media screen and (max-width: $large-min) {
       display: block;
       text-align: left;

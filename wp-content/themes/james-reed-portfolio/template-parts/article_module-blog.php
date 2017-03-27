@@ -9,7 +9,7 @@
                 ?>
             </a>
             <div class="title-container">
-                <a class="date"><?php echo get_the_date(); ?></a>
+                <a class="date" href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
                 <a class="title" href="<?php the_permalink(); ?>">
                     <h4><?php the_title(); ?></h4>
                 </a>

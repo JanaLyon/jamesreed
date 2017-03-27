@@ -90,7 +90,7 @@ get_header();
                                                     <img src='<?php echo $imageArray[$i]; ?>'/>
                                                 </a>
                                                 <div class="title-container">
-                                                    <p><?php echo $dateArray[$i]; ?></p>
+                                                    <a class="date" href="<?php echo $urlArray[$i]; ?>"><?php echo $dateArray[$i]; ?></a>
                                                     <a class="title"
                                                        href="<?php echo $urlArray[$i]; ?>">
                                                         <h4><?php echo $titleArray[$i]; ?></h4>
